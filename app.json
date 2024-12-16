@@ -29,6 +29,29 @@
   "flow": {
     "actions": [
       {
+        "id": "random-gif",
+        "title": {
+          "en": "Spela upp slumpmässig GIF"
+        },
+        "titleFormatted": {
+          "en": "Spela upp slumpmässig GIF i [[duration]] sekunder"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=matrix"
+          },
+          {
+            "type": "number",
+            "name": "duration",
+            "placeholder": {
+              "en": "sekunder"
+            }
+          }
+        ]
+      },
+      {
         "id": "text",
         "title": {
           "en": "Skicka meddelande"
@@ -46,7 +69,7 @@
             "type": "text",
             "name": "message",
             "placeholder": {
-              "en": "Meddelande"
+              "en": "meddelande"
             }
           }
         ]
@@ -69,7 +92,7 @@
             "type": "text",
             "name": "message",
             "placeholder": {
-              "en": "Message"
+              "en": "meddelande"
             }
           },
           {

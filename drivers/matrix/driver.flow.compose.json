@@ -1,45 +1,63 @@
 {
-  "actions": [
-    {
-      "id": "text",
-      "title": {
-        "en": "Skicka meddelande"
-      },
-      "titleFormatted": {
-        "en": "Skicka [[message]]"
-      },
-      "args": [
+    "actions": [
         {
-          "type": "text",
-          "name": "message",
-          "placeholder": {
-            "en": "Meddelande"
-          }
-        }
-      ]
-    },
-    
-    {
-      "id": "text-with-color",
-      "title": {
-        "en": "Skicka meddelande med färg"
-      },
-      "titleFormatted": {
-        "en": "Skicka [[message]] med färg [[color]]"
-      },
-      "args": [
-        {
-          "type": "text",
-          "name": "message",
-          "placeholder": {
-            "en": "Message"
-          }
+            "id": "random-gif",
+            "title": {
+                "en": "Spela upp slumpmässig GIF"
+            },
+            "titleFormatted": {
+                "en": "Spela upp slumpmässig GIF i [[duration]] sekunder"
+            },
+            "args": [
+                {
+                    "type": "number",
+                    "name": "duration",
+                    "placeholder": {
+                        "en": "sekunder"
+                    }
+                }
+            ]
         },
         {
-          "type": "color",
-          "name": "color"
+            "id": "text",
+            "title": {
+                "en": "Skicka meddelande"
+            },
+            "titleFormatted": {
+                "en": "Skicka [[message]]"
+            },
+            "args": [
+                {
+                    "type": "text",
+                    "name": "message",
+                    "placeholder": {
+                        "en": "meddelande"
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "text-with-color",
+            "title": {
+                "en": "Skicka meddelande med färg"
+            },
+            "titleFormatted": {
+                "en": "Skicka [[message]] med färg [[color]]"
+            },
+            "args": [
+                {
+                    "type": "text",
+                    "name": "message",
+                    "placeholder": {
+                        "en": "meddelande"
+                    }
+                },
+                {
+                    "type": "color",
+                    "name": "color"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
