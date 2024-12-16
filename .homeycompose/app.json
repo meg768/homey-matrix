@@ -1,28 +1,24 @@
 {
-  "id": "se.egelberg.homey-matrix",
-  "version": "1.0.0",
-  "compatibility": ">=5.0.0",
-  "sdk": 3,
-  "platforms": [
-    "local"
-  ],
-  "name": {
-    "en": "Homey Matrix"
-  },
-  "description": {
-    "en": "Adds support for my matrices"
-  },
-  "category": [
-    "tools"
-  ],
-  "permissions": [],
-  "images": {
-    "small": "/assets/images/small.png",
-    "large": "/assets/images/large.png",
-    "xlarge": "/assets/images/xlarge.png"
-  },
-  "author": {
-    "name": "Magnus Egelberg",
-    "email": "magnus.egelberg@gmail.com"
-  }
+    "id": "se.egelberg.homey-matrix",
+    "version": "1.0.0",
+    "compatibility": ">=5.0.0",
+    "sdk": 3,
+    "platforms": ["local"],
+    "name": {
+        "en": "Homey Matrix"
+    },
+    "description": {
+        "en": "Adds support for my matrices"
+    },
+    "category": ["tools"],
+    "permissions": [],
+    "images": {
+        "small": "/assets/images/small.png",
+        "large": "/assets/images/large.png",
+        "xlarge": "/assets/images/xlarge.png"
+    },
+    "author": {
+        "name": "Magnus Egelberg",
+        "email": "magnus.egelberg@gmail.com"
+    }
 }
